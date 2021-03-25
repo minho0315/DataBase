@@ -40,7 +40,7 @@ INSERT INTO memberTBL VALUES ('Soccer', '흥민', '서울시 서대문구 북가
 UPDATE memberTBL SET memberAddress = '서울 강남구 역삼동' WHERE memberName = '흥민';
 DELETE FROM memberTBL WHERE memberName = '흥민';
 
-CREATE TABLE deletedMemberTBL 
+CREATE TABLE deletedMemberTBL  
 ( memberID char(8), 
   memberName char(5), 
   memberAddress char(20), 
